@@ -22,7 +22,7 @@ public class FirstAutomation {
         //Type Lastname
         driver.findElement(By.name("LastName")).sendKeys("Parekh");
         //Type E-mail
-        driver.findElement(By.id("Email")).sendKeys("sparekh@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("sparekh02@gmail.com");
         //Type Password
         driver.findElement(By.id("Password")).sendKeys("Abcd@123");
         //Type Confirmed password
@@ -39,7 +39,7 @@ public class FirstAutomation {
         }else {
             System.out.println("Fail");
         }
-        driver.close();
+        //driver.close();
 
 
 
